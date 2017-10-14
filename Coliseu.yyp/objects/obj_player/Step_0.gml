@@ -1,3 +1,56 @@
+/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
+/// @DnDVersion : 1
+/// @DnDHash : 1CFE8CB6
+/// @DnDArgument : "obj" "obj_base"
+/// @DnDSaveInfo : "obj" "a126d7c2-8684-45ef-b005-bc2f63df1d58"
+var l1CFE8CB6_0 = false;
+l1CFE8CB6_0 = instance_exists(obj_base);
+if(l1CFE8CB6_0)
+{
+	/// @DnDAction : YoYo Games.Common.Get_Global
+	/// @DnDVersion : 1
+	/// @DnDHash : 08919AD8
+	/// @DnDParent : 1CFE8CB6
+	/// @DnDArgument : "output" "obj_player_baseWalk"
+	/// @DnDArgument : "var" "obj_base_walk"
+	obj_player_baseWalk = global.obj_base_walk;
+
+	/// @DnDAction : YoYo Games.Common.Get_Global
+	/// @DnDVersion : 1
+	/// @DnDHash : 57AEC2C4
+	/// @DnDParent : 1CFE8CB6
+	/// @DnDArgument : "output" "obj_player_baseRun"
+	/// @DnDArgument : "var" "obj_base_run"
+	obj_player_baseRun = global.obj_base_run;
+
+	/// @DnDAction : YoYo Games.Common.Get_Global
+	/// @DnDVersion : 1
+	/// @DnDHash : 5BCAAD16
+	/// @DnDParent : 1CFE8CB6
+	/// @DnDArgument : "output" "obj_player_baseHit"
+	/// @DnDArgument : "var" "obj_base_hit"
+	obj_player_baseHit = global.obj_base_hit;
+
+	/// @DnDAction : YoYo Games.Common.Get_Global
+	/// @DnDVersion : 1
+	/// @DnDHash : 7A395700
+	/// @DnDParent : 1CFE8CB6
+	/// @DnDArgument : "output" "obj_player_currentHp"
+	/// @DnDArgument : "var" "obj_base_hp"
+	obj_player_currentHp = global.obj_base_hp;
+
+	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Mouse_Released
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 6D7FA5F2
+	/// @DnDParent : 1CFE8CB6
+	var l6D7FA5F2_0;
+	l6D7FA5F2_0 = mouse_check_button_released(mb_left);
+	if (l6D7FA5F2_0)
+	{
+	
+	}
+}
+
 /// @DnDAction : YoYo Games.Movement.Set_Direction_Point
 /// @DnDVersion : 1
 /// @DnDHash : 1480CAE0
@@ -28,9 +81,9 @@ if (l0FBA3230_0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 2481F66B
 	/// @DnDParent : 0FBA3230
-	/// @DnDArgument : "var" "cooldown"
+	/// @DnDArgument : "var" "obj_player_cooldown"
 	/// @DnDArgument : "op" "3"
-	if(cooldown <= 0)
+	if(obj_player_cooldown <= 0)
 	{
 		/// @DnDAction : YoYo Games.Instances.Create_Instance
 		/// @DnDVersion : 1
@@ -48,8 +101,8 @@ if (l0FBA3230_0)
 		/// @DnDHash : 69C1B922
 		/// @DnDParent : 2481F66B
 		/// @DnDArgument : "expr" "3"
-		/// @DnDArgument : "var" "cooldown"
-		cooldown = 3;
+		/// @DnDArgument : "var" "obj_player_cooldown"
+		obj_player_cooldown = 3;
 	}
 }
 
@@ -58,5 +111,5 @@ if (l0FBA3230_0)
 /// @DnDHash : 69968DF0
 /// @DnDArgument : "expr" "-1"
 /// @DnDArgument : "expr_relative" "1"
-/// @DnDArgument : "var" "cooldown"
-cooldown += -1;
+/// @DnDArgument : "var" "obj_player_cooldown"
+obj_player_cooldown += -1;
