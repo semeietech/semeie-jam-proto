@@ -11,11 +11,7 @@
     "bbox_right": 121,
     "bbox_top": 0,
     "bboxmode": 0,
-<<<<<<< HEAD
-    "colkind": 0,
-=======
     "colkind": 1,
->>>>>>> 6378c9719fe5efe6e075c8994cb5a41fbd46f372
     "coltolerance": 0,
     "edgeFiltering": false,
     "frames": [
