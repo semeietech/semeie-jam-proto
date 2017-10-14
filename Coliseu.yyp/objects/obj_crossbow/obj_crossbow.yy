@@ -1,19 +1,10 @@
 {
-    "id": "cf7a7c05-5215-4db2-8abf-f428ef2f9dd6",
+    "id": "42e584ca-91e0-4791-baf1-ffdb54e0e956",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_player",
+    "name": "obj_crossbow",
     "eventList": [
-        {
-            "id": "3fba05de-6628-480e-a61c-a928a03edc84",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "cf7a7c05-5215-4db2-8abf-f428ef2f9dd6"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
@@ -31,6 +22,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "d0c47296-7778-4656-97c7-2ee627221516",
+    "spriteId": "11321c78-fee6-4de9-8775-31b696e77da5",
     "visible": true
 }
