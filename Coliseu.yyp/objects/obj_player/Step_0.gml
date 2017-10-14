@@ -58,12 +58,6 @@ if(l1CFE8CB6_0)
 /// @DnDArgument : "y" "mouse_y"
 direction = point_direction(x, y, mouse_x, mouse_y);
 
-/// @DnDAction : YoYo Games.Instances.Sprite_Rotate
-/// @DnDVersion : 1
-/// @DnDHash : 235625BB
-/// @DnDArgument : "angle" "direction"
-image_angle = direction;
-
 /// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
 /// @DnDVersion : 1
 /// @DnDHash : 02B407CA
