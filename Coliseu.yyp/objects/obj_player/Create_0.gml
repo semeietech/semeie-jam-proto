@@ -40,3 +40,9 @@ obj_player_currentHp = 0;
 /// @DnDHash : 1A269D17
 /// @DnDArgument : "var" "obj_player_baseHit"
 obj_player_baseHit = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 312B68AC
+/// @DnDArgument : "var" "obj_player_direction"
+obj_player_direction = 0;
