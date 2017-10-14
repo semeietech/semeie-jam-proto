@@ -57,5 +57,6 @@ if (l0FBA3230_0)
 /// @DnDVersion : 1
 /// @DnDHash : 69968DF0
 /// @DnDArgument : "expr" "-1"
+/// @DnDArgument : "expr_relative" "1"
 /// @DnDArgument : "var" "cooldown"
-cooldown = -1;
+cooldown += -1;
