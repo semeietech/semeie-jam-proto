@@ -210,6 +210,25 @@
             }
         },
         {
+            "Key": "6b5d49d7-1b16-47e3-b754-651202229221",
+            "Value": {
+                "id": "ade839ae-fbc4-46e5-8c36-06de556a3e7b",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_robot_walk\/spr_robot_walk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6cf7049a-4a09-4a51-83ce-181cefb574f2",
             "Value": {
                 "id": "caaf3c3f-b34c-4355-bed3-01c27e49b6ce",
