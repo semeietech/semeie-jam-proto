@@ -373,7 +373,7 @@
         }
     ],
     "origin": 9,
-    "originLocked": true,
+    "originLocked": false,
     "playbackSpeed": 15,
     "playbackSpeedType": 0,
     "premultiplyAlpha": false,
@@ -384,5 +384,5 @@
     "type": 0,
     "width": 120,
     "xorig": 60,
-    "yorig": 129
+    "yorig": 119
 }
