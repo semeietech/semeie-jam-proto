@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 7638ED2B
+/// @DnDArgument : "expr" "10"
+/// @DnDArgument : "var" "obj_base_test"
+obj_base_test = 10;
+
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 1E303D50
