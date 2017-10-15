@@ -357,26 +357,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sprites\/sprite_kronah_walk_back_sword\/sprite_kronah_walk_back_sword.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "6b5d49d7-1b16-47e3-b754-651202229221",
-            "Value": {
-                "id": "ade839ae-fbc4-46e5-8c36-06de556a3e7b",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "sprites\/spr_robot_walk\/spr_robot_walk.yy",
+                "resourcePath": "sprites\/sprite_kronath_walk_back_sword\/sprite_kronath_walk_back_sword.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -642,7 +623,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sprites\/sprite_kronah_walk_back\/sprite_kronah_walk_back.yy",
+                "resourcePath": "sprites\/sprite_kronath_walk_back\/sprite_kronath_walk_back.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -818,25 +799,6 @@
             }
         },
         {
-            "Key": "d0c47296-7778-4656-97c7-2ee627221516",
-            "Value": {
-                "id": "f6e9daa6-4fea-4d4a-b42c-36936fa4cf65",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "sprites\/spr_robot\/spr_robot.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "d1f607c8-3385-41ec-949d-057e9998ce8a",
             "Value": {
                 "id": "eb62d665-218a-481b-9df2-f3763b8863cc",
@@ -889,7 +851,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sprites\/sprite_kronah_iddle_back\/sprite_kronah_iddle_back.yy",
+                "resourcePath": "sprites\/sprite_kronath_iddle_back\/sprite_kronath_iddle_back.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -984,7 +946,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sprites\/sprite_kronah_iddle_back_sword\/sprite_kronah_iddle_back_sword.yy",
+                "resourcePath": "sprites\/sprite_kronath_iddle_back_sword\/sprite_kronath_iddle_back_sword.yy",
                 "resourceType": "GMSprite"
             }
         },
