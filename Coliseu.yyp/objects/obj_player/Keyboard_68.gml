@@ -8,9 +8,10 @@
 x += obj_player_velocite;
 y += 0;
 
-/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDAction : YoYo Games.Data Structures.Map_Set_Value
 /// @DnDVersion : 1
-/// @DnDHash : 3E5B099C
-/// @DnDArgument : "expr" ""WALK""
+/// @DnDHash : 42A3EA39
 /// @DnDArgument : "var" "obj_player_action"
-obj_player_action = "WALK";
+/// @DnDArgument : "key" ""WALK""
+/// @DnDArgument : "value" "true"
+ds_map_replace(obj_player_action, "WALK", true);
