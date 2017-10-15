@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 566C4A65
-/// @DnDArgument : "expr" "obj_base.obj_base_test"
+/// @DnDArgument : "expr" "obj_base_test"
 /// @DnDArgument : "var" "obj_player_baseWalk"
-obj_player_baseWalk = obj_base.obj_base_test;
+obj_player_baseWalk = obj_base_test;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

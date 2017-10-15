@@ -32,8 +32,3 @@ global.obj_base_hp = 100;
 /// @DnDArgument : "value" "4"
 /// @DnDArgument : "var" "obj_base_walk"
 global.obj_base_walk = 4;
-
-/// @DnDAction : YoYo Games.Common.Set_Global
-/// @DnDVersion : 1
-/// @DnDHash : 12B5CDA5
-global.variable = 0;
