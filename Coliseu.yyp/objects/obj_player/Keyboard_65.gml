@@ -7,3 +7,10 @@
 /// @DnDArgument : "y_relative" "1"
 x += -obj_player_velocite;
 y += 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 20FCC9AA
+/// @DnDArgument : "expr" ""WALK""
+/// @DnDArgument : "var" "obj_player_action"
+obj_player_action = "WALK";
