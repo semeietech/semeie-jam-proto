@@ -1,6 +1,7 @@
-/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDAction : YoYo Games.Data Structures.Map_Set_Value
 /// @DnDVersion : 1
-/// @DnDHash : 28696A6F
-/// @DnDArgument : "expr" ""IDLE""
+/// @DnDHash : 52A0734A
 /// @DnDArgument : "var" "obj_player_action"
-obj_player_action = "IDLE";
+/// @DnDArgument : "key" ""WALK""
+/// @DnDArgument : "value" "false"
+ds_map_replace(obj_player_action, "WALK", false);
