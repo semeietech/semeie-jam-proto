@@ -38,6 +38,44 @@
         "projectPath": "${base_project}"
     },
     "resources": [
+      {
+            "Key": "0de2fbfe-1778-45d1-9bd9-679c320ddc87",
+            "Value": {
+                "id": "21128eb4-6594-4e49-be55-78b38e498154",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sprite_kronath_walk_side\/sprite_kronath_walk_side.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1fe0292c-cba3-4bb7-a304-e0c65fbcc9e0",
+            "Value": {
+                "id": "b1d4bf2c-4bfa-4cd2-bb83-5ab2318e8b89",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sprite_kronah_atack_melee_onehand_back\/sprite_kronah_atack_melee_onehand_back.yy",
+                "resourceType": "GMSprite"
+            }
+        },
         {
             "Key": "078856f2-9fbd-4603-9e0e-0dfcd2844a2e",
             "Value": {
@@ -54,6 +92,101 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/spr_enemy\/spr_enemy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "654545c9-43b2-4ac7-b07b-108ece994a86",
+            "Value": {
+                "id": "3b0f3192-21a8-4bbd-99ab-8314b4788862",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sprite_kronah_walk_back\/sprite_kronah_walk_back.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9876bcb9-e7ba-4814-be78-47a3a6579b34",
+            "Value": {
+                "id": "31769066-2b88-4810-b535-37254285ea79",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sprite_kronath_iddle_side\/sprite_kronath_iddle_side.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b04998f1-cf30-46cf-a3e3-10f81198c9e2",
+            "Value": {
+                "id": "c4fd4242-b407-441c-8353-83a11c2bcaff",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sprite_kronath_walk_front\/sprite_kronath_walk_front.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+         {
+            "Key": "c97935c6-6f5a-47a8-8f59-f903b21aed2c",
+            "Value": {
+                "id": "c61283d9-5c37-472d-8381-66e8b3c0053e",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sprite_kronath_atack_melee_onehand_front\/sprite_kronath_atack_melee_onehand_front.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+{
+            "Key": "e8194eff-1fbb-48ab-8bd0-5cd301a845c5",
+            "Value": {
+                "id": "b2e14178-0396-4659-8d5a-cc003b3188b5",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sprite_kronah_iddle_back\/sprite_kronah_iddle_back.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -92,6 +225,25 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/spr_crossbow\/spr_crossbow.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+         {
+            "Key": "38fc8df7-18c6-400c-8d8f-406eadf541a2",
+            "Value": {
+                "id": "222efc1a-7569-45c6-ac98-08997f578bc5",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sprite_kronath_iddle_front\/sprite_kronath_iddle_front.yy",
                 "resourceType": "GMSprite"
             }
         },
