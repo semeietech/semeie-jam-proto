@@ -31,9 +31,16 @@ obj_player_baseHp = 0;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
+/// @DnDHash : 2ECF0D26
+/// @DnDArgument : "var" "obj_player_damageControl"
+obj_player_damageControl = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
 /// @DnDHash : 2A317BC1
+/// @DnDArgument : "expr" "obj_player_baseHp + obj_player_damageControl"
 /// @DnDArgument : "var" "obj_player_currentHp"
-obj_player_currentHp = 0;
+obj_player_currentHp = obj_player_baseHp + obj_player_damageControl;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

@@ -35,20 +35,17 @@ if(l1CFE8CB6_0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 7A395700
 	/// @DnDParent : 1CFE8CB6
-	/// @DnDArgument : "output" "obj_player_currentHp"
+	/// @DnDArgument : "output" "obj_player_baseHp"
 	/// @DnDArgument : "var" "obj_base_hp"
-	obj_player_currentHp = global.obj_base_hp;
+	obj_player_baseHp = global.obj_base_hp;
 
-	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Mouse_Released
-	/// @DnDVersion : 1.1
-	/// @DnDHash : 6D7FA5F2
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 556962B2
 	/// @DnDParent : 1CFE8CB6
-	var l6D7FA5F2_0;
-	l6D7FA5F2_0 = mouse_check_button_released(mb_left);
-	if (l6D7FA5F2_0)
-	{
-	
-	}
+	/// @DnDArgument : "expr" "obj_player_baseHp + obj_player_damageControl"
+	/// @DnDArgument : "var" "obj_player_currentHp"
+	obj_player_currentHp = obj_player_baseHp + obj_player_damageControl;
 }
 
 /// @DnDAction : YoYo Games.Movement.Set_Direction_Point
@@ -63,6 +60,37 @@ direction = point_direction(x, y, mouse_x, mouse_y);
 /// @DnDHash : 02B407CA
 /// @DnDArgument : "speed_relative" "1"
 image_speed += 1;
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 517ACF14
+/// @DnDArgument : "var" "obj_player_currentHp"
+/// @DnDArgument : "op" "3"
+if(obj_player_currentHp <= 0)
+{
+	/// @DnDAction : YoYo Games.Audio.Audio_Set_Pitch
+	/// @DnDVersion : 1
+	/// @DnDHash : 23653F76
+	/// @DnDParent : 517ACF14
+	/// @DnDArgument : "sound" "sound0"
+	/// @DnDArgument : "pitch" "random_range(0.8 , 1.2)"
+	/// @DnDSaveInfo : "sound" "b1ae7707-8888-4c21-8099-6035997549c9"
+	audio_sound_pitch(sound0, random_range(0.8 , 1.2));
+
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 60F44565
+	/// @DnDParent : 517ACF14
+	/// @DnDArgument : "soundid" "sound0"
+	/// @DnDSaveInfo : "soundid" "b1ae7707-8888-4c21-8099-6035997549c9"
+	audio_play_sound(sound0, 0, 0);
+
+	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 7C3BE4C5
+	/// @DnDParent : 517ACF14
+	instance_destroy();
+}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
