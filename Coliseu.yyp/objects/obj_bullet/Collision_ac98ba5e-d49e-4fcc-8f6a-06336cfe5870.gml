@@ -4,9 +4,9 @@
 /// @DnDApplyTo : other
 /// @DnDArgument : "expr" "-5"
 /// @DnDArgument : "expr_relative" "1"
-/// @DnDArgument : "var" "hp"
+/// @DnDArgument : "var" "obj_enemy_currentHp"
 with(other) {
-hp += -5;
+obj_enemy_currentHp += -5;
 
 }
 
