@@ -419,6 +419,25 @@
             }
         },
         {
+            "Key": "748dd2ae-a9fa-4d3b-b792-d99e65a6a8bb",
+            "Value": {
+                "id": "f46cfbc1-4746-44b8-8b5b-b994e9804b67",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "tilesets\/til_background_alpha\/til_background_alpha.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "81a9a7e4-82df-4cc9-8549-e3d4b5e59317",
             "Value": {
                 "id": "6d3b93f6-17d4-4e87-a927-f74bc90c1eaa",
@@ -758,6 +777,25 @@
                 ],
                 "resourcePath": "views\/bba56c40-3163-4317-8751-3bc3d26c0efd.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c878e543-b338-456a-802a-4c3a97c09eff",
+            "Value": {
+                "id": "137f72ed-610c-44b3-8129-0e0316a2142f",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sprite_kronath_walk_side_sword\/sprite_kronath_walk_side_sword.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

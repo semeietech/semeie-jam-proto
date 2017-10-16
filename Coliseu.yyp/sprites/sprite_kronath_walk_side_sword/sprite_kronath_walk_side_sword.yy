@@ -1,5 +1,5 @@
 {
-    "id": "0de2fbfe-1778-45d1-9bd9-679c320ddc87",
+    "id": "c878e543-b338-456a-802a-4c3a97c09eff",
     "modelName": "GMSprite",
     "mvc": "1.12",
     "name": "sprite_kronath_walk_side_sword",
@@ -1092,4 +1092,3 @@
     "width": 120,
     "xorig": 60,
     "yorig": 99
-}

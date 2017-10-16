@@ -80,17 +80,17 @@ obj_player_sprites_melee = ds_map_create();
 /// @DnDInput : 4
 /// @DnDArgument : "var" "obj_player_sprites_walk"
 /// @DnDArgument : "key" ""RIGHT""
-/// @DnDArgument : "value" "sprite_kronath_walk_side"
+/// @DnDArgument : "value" "sprite_kronath_walk_side_sword"
 /// @DnDArgument : "key_1" ""LEFT""
-/// @DnDArgument : "value_1" "sprite_kronath_walk_side"
+/// @DnDArgument : "value_1" "sprite_kronath_walk_side_sword"
 /// @DnDArgument : "key_2" ""UP""
-/// @DnDArgument : "value_2" "sprite_kronah_walk_back"
+/// @DnDArgument : "value_2" "sprite_kronath_walk_back_sword"
 /// @DnDArgument : "key_3" ""DOWN""
-/// @DnDArgument : "value_3" "sprite_kronath_walk_front"
-ds_map_replace(obj_player_sprites_walk, "RIGHT", sprite_kronath_walk_side);
-ds_map_replace(obj_player_sprites_walk, "LEFT", sprite_kronath_walk_side);
-ds_map_replace(obj_player_sprites_walk, "UP", sprite_kronah_walk_back);
-ds_map_replace(obj_player_sprites_walk, "DOWN", sprite_kronath_walk_front);
+/// @DnDArgument : "value_3" "sprite_kronath_walk_front_sword"
+ds_map_replace(obj_player_sprites_walk, "RIGHT", sprite_kronath_walk_side_sword);
+ds_map_replace(obj_player_sprites_walk, "LEFT", sprite_kronath_walk_side_sword);
+ds_map_replace(obj_player_sprites_walk, "UP", sprite_kronath_walk_back_sword);
+ds_map_replace(obj_player_sprites_walk, "DOWN", sprite_kronath_walk_front_sword);
 
 /// @DnDAction : YoYo Games.Data Structures.Map_Set_Value
 /// @DnDVersion : 1
@@ -98,17 +98,17 @@ ds_map_replace(obj_player_sprites_walk, "DOWN", sprite_kronath_walk_front);
 /// @DnDInput : 4
 /// @DnDArgument : "var" "obj_player_sprites_idle"
 /// @DnDArgument : "key" ""RIGHT""
-/// @DnDArgument : "value" "sprite_kronath_iddle_side"
+/// @DnDArgument : "value" "sprite_kronath_iddle_side_sword"
 /// @DnDArgument : "key_1" ""LEFT""
-/// @DnDArgument : "value_1" "sprite_kronath_iddle_side"
+/// @DnDArgument : "value_1" "sprite_kronath_iddle_side_sword"
 /// @DnDArgument : "key_2" ""UP""
-/// @DnDArgument : "value_2" "sprite_kronah_iddle_back"
+/// @DnDArgument : "value_2" "sprite_kronath_iddle_back_sword"
 /// @DnDArgument : "key_3" ""DOWN""
-/// @DnDArgument : "value_3" "sprite_kronath_iddle_front"
-ds_map_replace(obj_player_sprites_idle, "RIGHT", sprite_kronath_iddle_side);
-ds_map_replace(obj_player_sprites_idle, "LEFT", sprite_kronath_iddle_side);
-ds_map_replace(obj_player_sprites_idle, "UP", sprite_kronah_iddle_back);
-ds_map_replace(obj_player_sprites_idle, "DOWN", sprite_kronath_iddle_front);
+/// @DnDArgument : "value_3" "sprite_kronath_iddle_front_sword"
+ds_map_replace(obj_player_sprites_idle, "RIGHT", sprite_kronath_iddle_side_sword);
+ds_map_replace(obj_player_sprites_idle, "LEFT", sprite_kronath_iddle_side_sword);
+ds_map_replace(obj_player_sprites_idle, "UP", sprite_kronath_iddle_back_sword);
+ds_map_replace(obj_player_sprites_idle, "DOWN", sprite_kronath_iddle_front_sword);
 
 /// @DnDAction : YoYo Games.Data Structures.Map_Set_Value
 /// @DnDVersion : 1
