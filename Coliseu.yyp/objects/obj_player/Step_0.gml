@@ -271,8 +271,8 @@ if(isIdle == true)
 	/// @DnDVersion : 1
 	/// @DnDHash : 4E1AE048
 	/// @DnDParent : 13E1A3E1
-	/// @DnDArgument : "speed" "12"
-	image_speed = 12;
+	/// @DnDArgument : "speed" "8"
+	image_speed = 8;
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
