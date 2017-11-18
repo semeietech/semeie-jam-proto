@@ -35,11 +35,11 @@ if(obj_player_currentHp <= 0)
 	/// @DnDSaveInfo : "soundid" "b1ae7707-8888-4c21-8099-6035997549c9"
 	audio_play_sound(sound0, 0, 0);
 
-	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+	/// @DnDAction : YoYo Games.Game.Restart_Game
 	/// @DnDVersion : 1
-	/// @DnDHash : 7C3BE4C5
+	/// @DnDHash : 35EEB716
 	/// @DnDParent : 517ACF14
-	instance_destroy();
+	game_restart();
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable

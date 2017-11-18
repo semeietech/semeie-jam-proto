@@ -42,7 +42,7 @@
             "Key": "078856f2-9fbd-4603-9e0e-0dfcd2844a2e",
             "Value": {
                 "id": "4fb82c9e-b69f-4830-b83b-9c3ef84035cc",
-                "resourcePath": "sprites\/spr_enemy\/spr_enemy.yy",
+                "resourcePath": "sprites\\spr_enemy\\spr_enemy.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -108,6 +108,14 @@
                 "id": "b1d4bf2c-4bfa-4cd2-bb83-5ab2318e8b89",
                 "resourcePath": "sprites\/sprite_kronah_atack_melee_onehand_back\/sprite_kronah_atack_melee_onehand_back.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2cc77594-dc9e-4ec1-a357-22d529817332",
+            "Value": {
+                "id": "7345878e-1eb9-45c4-9eaf-536c7a182123",
+                "resourcePath": "objects\\obj_slash\\obj_slash.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -268,6 +276,14 @@
                 "id": "9cfeef70-36fa-4dfb-8bc4-58e425e01390",
                 "resourcePath": "views\/8e6409e3-2bce-4a88-85a6-d69644b9f00e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8ee68198-1b00-41fa-91c4-a909cd7e170c",
+            "Value": {
+                "id": "3f477201-68bd-4341-9390-49234ee61a9a",
+                "resourcePath": "sprites\\spr_enemy_idle\\spr_enemy_idle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
