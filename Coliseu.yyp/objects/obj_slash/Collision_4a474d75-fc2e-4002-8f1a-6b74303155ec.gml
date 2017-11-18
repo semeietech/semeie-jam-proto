@@ -2,11 +2,11 @@
 /// @DnDVersion : 1
 /// @DnDHash : 6AF5E456
 /// @DnDApplyTo : other
-/// @DnDArgument : "expr" "-50"
+/// @DnDArgument : "expr" "-10"
 /// @DnDArgument : "expr_relative" "1"
 /// @DnDArgument : "var" "obj_player_currentHp"
 with(other) {
-obj_player_currentHp += -50;
+obj_player_currentHp += -10;
 
 }
 
