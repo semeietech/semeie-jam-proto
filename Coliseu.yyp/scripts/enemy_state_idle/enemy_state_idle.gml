@@ -6,10 +6,10 @@
 			var change = choose(0,1);
 			switch(change){
 				case 0: state = states.wander;
-				case 1: counter =0; break;
+				case 1: counter = 0; break;
 			}
 		}
-		if(collision_circle(x,y, 164, obj_player, false, false)){
+		if(collision_circle(x,y, 194, obj_player, false, false)){
 			state = states.alert;
 		}
 		

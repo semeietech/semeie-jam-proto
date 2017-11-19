@@ -10,5 +10,14 @@ enum states{
 	idle,
 	wander,
 	alert,
-	attack
+	attack,
+	
+	walk,
+}
+
+enum directions{
+	left,
+	right,
+	down,
+	up,
 }

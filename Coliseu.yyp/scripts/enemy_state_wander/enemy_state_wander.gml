@@ -6,7 +6,7 @@
 		//transition triggers
 		if(counter >= room_speed * 3){
 			var change = choose(0,1);
-			switch(change){
+			switch(change) {
 				case 0: state = states.idle;
 				case 1:
 					my_dir = irandom_range(0, 359);
@@ -15,10 +15,11 @@
 					counter = 0;
 			}
 		}
-		if(collision_circle(x,y, 164, obj_player, false, false)){
+		
+		if(collision_circle(x,y, 134, obj_player, false, false)){
 			state = states.alert;
 		}
 		
 		//Sprite
 		sprite_index = spr_enemy_idle;
-		image_xscale = sign(moveX);		
+		image_xscale = sign(-1*moveX);		

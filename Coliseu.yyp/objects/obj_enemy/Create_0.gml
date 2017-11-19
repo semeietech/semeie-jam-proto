@@ -23,12 +23,9 @@ state_array[states.wander] = enemy_state_wander;
 state_array[states.alert] = enemy_state_alert;
 state_array[states.attack] = enemy_state_attack;
 
-
 counter = 0;
-spd = .5;
+spd = 2;
 
 my_dir = irandom_range(0, 359);
 moveX = lengthdir_x(spd, my_dir);
 moveY = lengthdir_y(spd, my_dir);
-
-my_slash = noone;
