@@ -11,7 +11,7 @@ enum states{
 	wander,
 	alert,
 	attack,
-	
+	charge,
 	walk,
 }
 
