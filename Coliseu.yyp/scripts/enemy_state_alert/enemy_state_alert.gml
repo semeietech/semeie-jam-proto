@@ -9,6 +9,10 @@ if(!collision_circle(x,y, 94, obj_player, false, false)){
 	state = states.idle;
 }
 
+if(collision_circle(x,y, 64, obj_player, false, false)){
+	state= states.charge;
+}
+
 if (collision_circle(x,y, 32, obj_player, false, false)){
 	state = states.attack;
 }
