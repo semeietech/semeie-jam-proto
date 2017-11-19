@@ -1,20 +1,11 @@
-obj_enemy_baszeWalk = 0;
-
-obj_enemy_baseRun = 0;
-
-obj_enemy_velocity = 0;
-
-obj_enemy_cooldown = 0;
-
-obj_enemy_currentHp = 0;
-
+baseWalk = 0;
+baseRun = 0;
+cooldown = 0;
+currentHp = 0;
 obj_enemy_direction = 0;
-
-obj_enemy_baseHp = 1;
-
-obj_enemy_damageControl = 0;
-
-obj_enemy_currentHp = obj_enemy_baseHp + (obj_enemy_damageControl);
+baseHp = 15;
+damageControl = 0;
+currentHp = baseHp + (damageControl);
 
 state = states.idle;
 
