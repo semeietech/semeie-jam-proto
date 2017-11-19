@@ -362,6 +362,25 @@
             }
         },
         {
+            "Key": "50f4eddc-ba09-4ca9-872c-49ee42c8ef07",
+            "Value": {
+                "id": "5dc69583-6267-48d0-96fe-3bdb375a3422",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/arena_barbarian\/arena_barbarian.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "534d2380-3140-4f51-9eea-adf84e1c836e",
             "Value": {
                 "id": "597fa39f-7c19-4750-896f-bc3c9d5bd1c2",
@@ -856,6 +875,25 @@
             }
         },
         {
+            "Key": "ae2f3c96-8180-4953-9ae1-ede49104e34f",
+            "Value": {
+                "id": "cba9fac5-c119-4738-8b3d-46965b448ca6",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sprite20\/sprite20.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b04998f1-cf30-46cf-a3e3-10f81198c9e2",
             "Value": {
                 "id": "c4fd4242-b407-441c-8353-83a11c2bcaff",
@@ -1043,6 +1081,25 @@
                 ],
                 "resourcePath": "views\/d1f607c8-3385-41ec-949d-057e9998ce8a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d3e3bd91-4cec-49bc-802c-e0f0a225c452",
+            "Value": {
+                "id": "7d8db8c5-3b3b-45dd-a384-eabfcc0aab4d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "tilesets\/arena_barbaros\/arena_barbaros.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
