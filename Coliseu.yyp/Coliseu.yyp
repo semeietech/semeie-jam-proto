@@ -286,6 +286,25 @@
             }
         },
         {
+            "Key": "25bc5493-6cbf-438b-b97a-54183a1036c6",
+            "Value": {
+                "id": "b66f9fef-5546-4f12-93ce-136748207a94",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/enemyHasHp\/enemyHasHp.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2ee31387-342f-441c-98cd-3e29fe84a4b2",
             "Value": {
                 "id": "b6166819-d8d4-44c9-be6a-2a96673c7b2f",
@@ -1708,7 +1727,8 @@
         "37b2c48b-1406-4115-902a-d71543f5cf82",
         "18af45fe-863b-4ee9-ab81-33ce5fa5eb72",
         "b6e081f8-abe7-4c2d-bb4a-d9d7b4afa148",
-        "74ba36e3-77a1-41d0-a43c-047aed913940"
+        "74ba36e3-77a1-41d0-a43c-047aed913940",
+        "25bc5493-6cbf-438b-b97a-54183a1036c6"
     ],
     "tutorial": ""
 }

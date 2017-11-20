@@ -9,7 +9,9 @@ if (counter >= room_speed * 3){
 		case 2: state = states.charge;
 	}
 }
-if(collision_circle(x,y, 194, obj_player, false, false)){
+
+
+if(collision_circle(x,y, 194, obj_player, false, true)){
 	state = states.alert;
 }
 		
