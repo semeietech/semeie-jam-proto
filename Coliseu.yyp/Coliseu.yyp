@@ -552,6 +552,25 @@
             }
         },
         {
+            "Key": "50f4eddc-ba09-4ca9-872c-49ee42c8ef07",
+            "Value": {
+                "id": "62e48a7e-0ba6-42b3-9231-77da00af37fb",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_arena_barbarian\/spr_arena_barbarian.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "534d2380-3140-4f51-9eea-adf84e1c836e",
             "Value": {
                 "id": "597fa39f-7c19-4750-896f-bc3c9d5bd1c2",
@@ -1689,6 +1708,25 @@
                 ],
                 "resourcePath": "views\/f7e606d6-bfe0-4574-b90f-1388a01ec9e6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f8366905-f44c-478d-8cfa-c3f5318749f4",
+            "Value": {
+                "id": "b533e088-b8e3-447e-a86d-d9f053bbba52",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "tilesets\/til_background_arena\/til_background_arena.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
