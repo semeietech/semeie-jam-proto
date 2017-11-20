@@ -14,5 +14,6 @@ spritesSwordMelee[directions.up] = sprite_kronah_atack_melee_onehand_back;
 spritesSwordMelee[directions.down] = sprite_kronath_atack_melee_onehand_front;
 
 playerSprites[states.walk] = spritesWalk;
+playerSprites[states.soak] = spritesIdle;
 playerSprites[states.idle] = spritesIdle;
 playerSprites[states.attack] = spritesSwordMelee;

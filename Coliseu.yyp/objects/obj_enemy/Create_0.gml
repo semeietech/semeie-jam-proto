@@ -3,9 +3,7 @@ baseRun = 0;
 cooldown = 0;
 currentHp = 0;
 obj_enemy_direction = 0;
-baseHp = 15;
-damageControl = 0;
-currentHp = baseHp + (damageControl);
+currentHp = 15;
 
 state = states.idle;
 
@@ -14,6 +12,7 @@ state_array[states.wander] = enemy_state_wander;
 state_array[states.alert] = enemy_state_alert;
 state_array[states.attack] = enemy_state_attack;
 state_array[states.charge] = enemy_state_charge;
+state_array[states.soak] = state_soak;
 
 counter = 0;
 spd = 2;

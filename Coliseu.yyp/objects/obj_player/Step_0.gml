@@ -1,6 +1,6 @@
 defaultFunc();
-
 script_execute(state_array[state]);
+
 
 var sprites = playerSprites[state];
 var sprite = sprites[playerDirection];

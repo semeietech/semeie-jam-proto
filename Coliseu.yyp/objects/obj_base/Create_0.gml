@@ -1,10 +1,9 @@
-obj_base_run = 2;
-
-obj_base_hit = 10;
-
-obj_base_hp = 100;
-
-obj_base_walk = 4;
+run = 2;
+hit = 10;
+hp = 100;
+spd = 4;
+counter = 0;
+state = states.idle;
 
 enum states{
 	idle,
@@ -13,6 +12,7 @@ enum states{
 	attack,
 	charge,
 	walk,
+	soak,
 }
 
 enum directions{

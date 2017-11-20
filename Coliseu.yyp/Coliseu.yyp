@@ -286,6 +286,25 @@
             }
         },
         {
+            "Key": "21a79d16-4459-468e-9b80-9ef161638a72",
+            "Value": {
+                "id": "83241154-0359-4e41-a9ce-8d4f6f6003ec",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/state_soak\/state_soak.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "25bc5493-6cbf-438b-b97a-54183a1036c6",
             "Value": {
                 "id": "b66f9fef-5546-4f12-93ce-136748207a94",
@@ -871,6 +890,25 @@
                     "default"
                 ],
                 "resourcePath": "scripts\/player_state_walk\/player_state_walk.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "836cbfbf-b9da-496f-9bbc-5a147ffbbc78",
+            "Value": {
+                "id": "ecc166c4-a730-4a22-8ae0-c189f96659d0",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/drawCollision\/drawCollision.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1635,6 +1673,25 @@
             }
         },
         {
+            "Key": "ec85ef34-3bba-4414-847f-42ceb8ceeb86",
+            "Value": {
+                "id": "bc94aff9-14f6-468b-92e7-6e63f8fa8c73",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "shaders\/fullWhite\/fullWhite.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "f269d9c0-f6ca-422b-9f4e-0bf88460a574",
             "Value": {
                 "id": "4a10e7ea-458b-426a-b90a-3ec1e073d89f",
@@ -1730,6 +1787,25 @@
             }
         },
         {
+            "Key": "f8d043f4-399d-4f4d-9c79-b20b2c8929c8",
+            "Value": {
+                "id": "798ff5e0-8f5e-43bd-b627-75a2486bf84d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/script19\/script19.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f8e5075e-428e-41fe-aa58-c7f99906e5ab",
             "Value": {
                 "id": "4c87d7b4-b991-4bd4-81ce-eb4003ba883e",
@@ -1758,6 +1834,7 @@
         "303a2c4a-e436-48f1-8082-e79bba145f44",
         "8266dd7c-328d-4eb1-b7fe-20b5a811c391",
         "dc135254-26dc-4be7-a585-1fcfdac1efd4",
+        "21a79d16-4459-468e-9b80-9ef161638a72",
         "2f7975be-4b7f-4d04-9c60-526b0a154d1f",
         "553f7fbd-84e9-4431-810f-03d6d0934811",
         "70940130-1a47-4834-b6a8-81c5fb3857e9",
@@ -1766,7 +1843,9 @@
         "18af45fe-863b-4ee9-ab81-33ce5fa5eb72",
         "b6e081f8-abe7-4c2d-bb4a-d9d7b4afa148",
         "74ba36e3-77a1-41d0-a43c-047aed913940",
-        "25bc5493-6cbf-438b-b97a-54183a1036c6"
+        "25bc5493-6cbf-438b-b97a-54183a1036c6",
+        "836cbfbf-b9da-496f-9bbc-5a147ffbbc78",
+        "f8d043f4-399d-4f4d-9c79-b20b2c8929c8"
     ],
     "tutorial": ""
 }
