@@ -1,5 +1,4 @@
-x += moveX;
-y += moveY;
+moveAndCollide();
 
 counter += 1;
 if (counter == 25)

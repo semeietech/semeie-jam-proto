@@ -1,6 +1,6 @@
 counter += 1;
 		
-//Transitions Triggers
+
 if (counter >= room_speed * 3){
 	var change = choose(0,1,2);
 	switch(change){

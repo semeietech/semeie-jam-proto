@@ -6,13 +6,8 @@ moveY = 0;
 moveX = (inputRight - inputLeft) * spd;
 moveY = (inputDown - inputUp) * spd;
  
-//if (COLLISION) {
 
-//}
-
-// -- APPLY MOVEMENT
-x += moveX;
-y += moveY;
+moveAndCollide();
 
 if (playerFollowMouse) {
 	playerTowardsMouse();

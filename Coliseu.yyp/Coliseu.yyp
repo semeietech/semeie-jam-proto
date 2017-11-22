@@ -58,6 +58,25 @@
             }
         },
         {
+            "Key": "039220f5-efb7-404b-ad78-b8715fd84698",
+            "Value": {
+                "id": "27723294-a6f9-43b3-81fa-7cc8a2cb26a2",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_collision\/obj_collision.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "078856f2-9fbd-4603-9e0e-0dfcd2844a2e",
             "Value": {
                 "id": "4fb82c9e-b69f-4830-b83b-9c3ef84035cc",
@@ -73,6 +92,25 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/spr_enemy\/spr_enemy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "0a3b64cc-51b0-403d-9307-7fc9c1ee54ff",
+            "Value": {
+                "id": "5cc40fa2-a960-4436-81b3-31677a9db5a9",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/characters_collider\/characters_collider.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -473,6 +511,25 @@
                 ],
                 "resourcePath": "scripts\/enemy_state_alert\/enemy_state_alert.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "3ca57e8f-4836-41a8-9d49-f50034111fa1",
+            "Value": {
+                "id": "678e5c7d-9d63-477e-8a28-d81f1e33823f",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/general_collider\/general_collider.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1801,7 +1858,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "scripts\/script19\/script19.yy",
+                "resourcePath": "scripts\/moveAndCollide\/moveAndCollide.yy",
                 "resourceType": "GMScript"
             }
         },
