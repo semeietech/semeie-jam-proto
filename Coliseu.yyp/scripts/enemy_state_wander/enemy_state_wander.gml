@@ -1,7 +1,6 @@
 
 		counter += 1;
-		x += moveX;
-		y += moveY;
+		moveAndCollide();
 		
 		//transition triggers
 		if(counter >= room_speed * 3){

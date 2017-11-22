@@ -1,8 +1,7 @@
 my_dir = point_direction (x,y, obj_player.x, obj_player.y)
 moveX = lengthdir_x(spd, my_dir);
 moveY = lengthdir_y(spd, my_dir);
-x += moveX;
-y += moveY;
+moveAndCollide();
 		
 //Transition Triggers
 if(!collision_circle(x,y, 94, obj_player, false, false)){

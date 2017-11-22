@@ -1725,7 +1725,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "objects\/obj_shield\/obj_shield.yy",
+                "resourcePath": "objects\/obj_draw\/obj_draw.yy",
                 "resourceType": "GMObject"
             }
         },
