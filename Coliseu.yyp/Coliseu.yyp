@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "52c3ca7a-9d26-4f0c-a601-3330e930a39b",
+            "Value": {
+                "id": "f2755ef2-4904-4b31-b22b-8b08068a94b8",
+                "resourcePath": "scripts\\get_target_frame\\get_target_frame.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "534d2380-3140-4f51-9eea-adf84e1c836e",
             "Value": {
                 "id": "597fa39f-7c19-4750-896f-bc3c9d5bd1c2",
@@ -503,6 +511,14 @@
             }
         },
         {
+            "Key": "989da928-35e9-449e-a2ce-a45fef7758a4",
+            "Value": {
+                "id": "cfc5e87f-0546-4cf8-b09b-c85c4ba4c029",
+                "resourcePath": "scripts\\state_damaged\\state_damaged.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "9c221fae-80d4-4a0a-90e3-a1bfad3fdeec",
             "Value": {
                 "id": "2aadeb98-f95b-4654-8eec-30575dc0d5ea",
@@ -711,6 +727,14 @@
             }
         },
         {
+            "Key": "d970c7e8-bbac-4c8f-84d9-c42fa938837d",
+            "Value": {
+                "id": "dcca29a7-ce55-40db-80de-df73efb527f0",
+                "resourcePath": "views\\d970c7e8-bbac-4c8f-84d9-c42fa938837d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "dc135254-26dc-4be7-a585-1fcfdac1efd4",
             "Value": {
                 "id": "c6a6e2bd-1550-445a-905a-9dc0ab88ab40",
@@ -751,20 +775,17 @@
             }
         },
         {
+            "Key": "e9fc6c1b-3c64-41c2-bf89-3c6c4036ad24",
+            "Value": {
+                "id": "e1319bfe-ec6c-45c9-ad01-8ab7c0815452",
+                "resourcePath": "scripts\\state_static\\state_static.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ea285218-af0e-4059-8d09-e9424e549d86",
             "Value": {
                 "id": "866a4b63-aaee-4b43-8436-5a7eec806b6d",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
                 "resourcePath": "objects\/obj_draw\/obj_draw.yy",
                 "resourceType": "GMObject"
             }
@@ -836,6 +857,9 @@
         "8266dd7c-328d-4eb1-b7fe-20b5a811c391",
         "dc135254-26dc-4be7-a585-1fcfdac1efd4",
         "21a79d16-4459-468e-9b80-9ef161638a72",
+        "989da928-35e9-449e-a2ce-a45fef7758a4",
+        "e9fc6c1b-3c64-41c2-bf89-3c6c4036ad24",
+        "52c3ca7a-9d26-4f0c-a601-3330e930a39b",
         "2f7975be-4b7f-4d04-9c60-526b0a154d1f",
         "553f7fbd-84e9-4431-810f-03d6d0934811",
         "70940130-1a47-4834-b6a8-81c5fb3857e9",

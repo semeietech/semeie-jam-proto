@@ -18,7 +18,7 @@ state_array[states.idle] = player_state_idle;
 state_array[states.walk] = player_state_walk;
 state_array[states.attack] = player_state_attackSimple;
 state_array[states.soak] = state_soak;
-
+state_array[states.damaged] = state_damaged;
 playerSprDb();
 
 
