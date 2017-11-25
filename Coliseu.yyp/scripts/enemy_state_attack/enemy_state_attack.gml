@@ -2,7 +2,9 @@
 	if (inst != noone) {
 		if (cooldown <= 0){
 			inst.currentHp -= 10;
+			
 		}
+		
 		with (inst) {
 			state = states.soak;
 			var my_dir = point_direction (x,y, inst.x, inst.y)

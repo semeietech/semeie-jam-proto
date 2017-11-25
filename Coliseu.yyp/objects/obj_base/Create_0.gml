@@ -13,6 +13,8 @@ enum states{
 	charge,
 	walk,
 	soak,
+	damaged,
+	static,
 }
 
 enum directions{
