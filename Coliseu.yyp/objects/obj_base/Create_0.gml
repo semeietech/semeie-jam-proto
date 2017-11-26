@@ -15,6 +15,7 @@ enum states{
 	soak,
 	damaged,
 	static,
+	danger,
 }
 
 enum directions{
