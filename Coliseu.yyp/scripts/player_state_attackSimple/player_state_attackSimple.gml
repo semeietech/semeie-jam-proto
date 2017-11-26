@@ -40,8 +40,7 @@ if (playerDirection == directions.left)
 
 }
 
-x += moveX;
-y += moveY;
+moveAndCollide();
 
 var inst = collision_rectangle(rectX1, rectY1, rectX2, rectY2, obj_enemy, false, true);
 if (inst != noone) {
