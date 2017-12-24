@@ -9,7 +9,7 @@ currentHp = hp + damageControl;
 
 cooldown = 0;
 stamina = 10;
-
+death_dummy = 0;
 playerFollowMouse = false;
 playerDirection = directions.up;
 state = states.idle;

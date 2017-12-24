@@ -19,8 +19,8 @@ if(state == states.danger){
 }
 else{
 	draw_sprite(vida_espada,current_frame,x,y)
-
+	
 }
-
+// chamar  sprite do contador e  mortes  //
 
 

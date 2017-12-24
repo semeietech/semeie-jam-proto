@@ -3,7 +3,7 @@ baseRun = 0;
 cooldown = 0;
 currentHp = 0;
 obj_enemy_direction = 0;
-currentHp = 15;
+currentHp = 1;
 
 state = states.idle;
 
